@@ -323,10 +323,8 @@ header > .headTitles > a, header > .headTitles > p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 22px;
-}
 
-.titleNicons {
-    margin: 20px;
+    margin-top: 5px;
 }
 
 #biographyHeader {
@@ -337,6 +335,10 @@ header > .headTitles > a, header > .headTitles > p {
 
 #stampLogo {
     margin-top: 24pt;
+}
+
+.titleNicons {
+    margin: 20px;
 }
 
 h3 {
