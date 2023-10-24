@@ -64,7 +64,7 @@ header > .headTitles > a, header > .headTitles > p {
 
 #sidenav {
     width: 400px;
-    height: 395px;
+    height: 405px;
 
     background-color: white;
 
@@ -207,6 +207,10 @@ header > .headTitles > a, header > .headTitles > p {
     margin-top: 10px;
     margin-left: 45px;
     margin-bottom: 10px;
+}
+
+.socials > div {
+    margin: 2px;
 }
 
 .linkLogo {
