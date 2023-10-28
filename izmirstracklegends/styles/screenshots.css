@@ -1,0 +1,25 @@
+#underliner {
+    height: 3px;
+    width: 192.08px;
+
+    margin-left: 944px;
+    background-color: black;
+}
+
+#main {
+    height: 1265px;
+}
+
+#main > #images {
+    margin-top: 12px; 
+}
+
+#main > #images > img {
+    height: 281px;
+    width: 500px;
+
+    margin: 10px;
+
+    border-radius: 15px;
+    border: 3px solid #bababa;
+}

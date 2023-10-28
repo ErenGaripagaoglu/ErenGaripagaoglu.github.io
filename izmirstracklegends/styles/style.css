@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.content {
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER ELEMENTS */
+
+header > .headTitles {
+    display: flex; /* Alt Grubu Yan Yana Sırala */
+    align-items: center;
+    height: 75px;
+    
+    background-color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header > .headTitles > a, header > .headTitles > p {
+    font-size: 32px;
+}
+
+#gameMain {
+    margin: 0px;
+    margin-left: 555px;
+}
+
+#screenshots {
+    margin: 0px;
+    margin-left: 55px;
+}
+
+#underline {
+    height: 3px;
+    background-color: #bababa;
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidenav {
+    width: 400px;
+    height: 405px;
+
+    background-color: white;
+
+    margin-top: 20px;
+    margin-left: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    border-radius: 30px;
+    border: 3px solid #bababa;
+}
+
+#banner {
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom: 3px solid #bababa;
+}
+
+#pfp {
+    border-radius: 95px;
+    border: 4px solid #bababa;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: -80px;
+    margin-left: 25px;
+}
+
+#egText {
+    font-size: 32px;
+
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+#wtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6e6e6e;
+
+    margin-left: 21px;
+}
+
+.cv {
+    display: flex;
+    
+    width: 360px;
+    height: 90px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#listSymbols {
+    width: 20px;
+    height: 220px;
+
+    margin-left: 10px;
+}
+
+#listLine {
+    align-items: center;
+
+    width: 2px;
+    height: 90px;
+
+    margin-left: 9px;
+
+    background-color: #bababa;
+}
+
+#seperator {
+    padding-top: 5px;
+}
+
+.circle {
+    display: flex;
+
+    margin: 0px;
+    margin-left: -11px;
+
+    width: 20px;
+    height: 20px;
+
+    background-color: white;
+
+    border-radius: 20px;
+    border: 2px solid #bababa;
+}
+
+#c1 {
+    margin-top: 20px;
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    
+    width: 310px;
+    height: 60px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#projectName {
+    margin-left: 4px;
+    margin-top: -2px;
+
+    font-size: 18px;
+}
+
+#devTitle {
+    margin-left: 5px;
+
+    font-size: 11px;
+    font-weight: 300;
+
+    color: #6e6e6e;
+}
+
+
+#seperator2 {
+    width: 400px;
+    height: 3px;
+
+    background-color: #bababa;
+}
+
+.socials {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    width: 310px;
+    height: 60px;
+    
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+.socials > div {
+    margin: 2px;
+}
+
+.linkLogo {
+    margin-right: 3px;
+}
+
+#gitHub {
+    display: flex;
+    align-items: center;
+}
+
+#linkedIn {
+    display: flex;
+    align-items: center;
+}
+
+#myWebsite {
+    display: flex;
+    align-items: center;
+}
+
+/* MAIN ELEMENTS */
+
+#main {
+    width: 1080px;
+
+    background-color: white;
+
+    margin: 20px;
+    margin-right: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-radius: 30px;
+    border: 3px solid #bababa;
+}
