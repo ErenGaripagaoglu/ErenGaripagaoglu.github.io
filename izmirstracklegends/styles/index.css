@@ -7,11 +7,10 @@
 }
 
 #main {
-    height: 700px;
+    height: 1020px;
 }
 
 #main > * {
-    margin-left: 15px;
     margin-top: 15px;
 }
 
@@ -31,4 +30,24 @@
     text-align: justify;
     font-size: 24px;
     font-weight: 300;
+}
+
+#download {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+#download > u > a {
+    color: blue;
+    margin-left: 25px;
+}
+
+#main > #images > img {
+    height: 285px;
+    width: 506px;
+
+    margin: 7px;
+
+    border-radius: 15px;
+    border: 3px solid #bababa;
 }
