@@ -298,8 +298,10 @@ header > .headTitles > a, header > .headTitles > p {
 /* MAIN ELEMENTS */
 
 #main {
-    width: 100%;
+    width: 1106px;
     height: 100%;
+
+    align-items: center;
 
     background-color: white;
 
@@ -314,8 +316,8 @@ header > .headTitles > a, header > .headTitles > p {
 }
 
 .pictures {
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 13px;
+    margin-left: 14px;
     margin-right: 15px;
     align-items: center;
 
@@ -323,9 +325,11 @@ header > .headTitles > a, header > .headTitles > p {
 }
 
 #trackBirdeye {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#trackBirdeye > img {
     border-radius: 25px;
     border: 3px solid #bababa;
 }
@@ -336,9 +340,6 @@ header > .headTitles > a, header > .headTitles > p {
 }
 
 #overWiewPic {
-    width: 525px;
-    height: 285px;
-
     margin-top: 10px;
     margin-left: 0px;
 
@@ -351,9 +352,6 @@ header > .headTitles > a, header > .headTitles > p {
 }
 
 #overWiewPic2 {
-    width: 525px;
-    height: 285px;
-
     margin-top: 10px;
     margin-left: 20px;
 
@@ -367,10 +365,7 @@ header > .headTitles > a, header > .headTitles > p {
     background-color: rgb(94	137	164	);
 }
 
-#e3 {
-    width: 525px;
-    height: 933px;
-
+.vertical3in1_l {
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 20px;
@@ -378,15 +373,12 @@ header > .headTitles > a, header > .headTitles > p {
     object-fit: fill;
 }
 
-#e3 > img {
+.vertical3in1_l > img {
     border-radius: 25px;
     border: 3px solid #bababa;
 }
 
-#japanrot {
-    width: 525px;
-    height: 933px;
-
+.vertical3in1_r {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -394,7 +386,7 @@ header > .headTitles > a, header > .headTitles > p {
     object-fit: fill;
 }
 
-#japanrot > img {
+.vertical3in1_r > img {
     border-radius: 25px;
     border: 3px solid #bababa;
 }
