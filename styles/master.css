@@ -1,0 +1,65 @@
+body {
+    background: rgb(235,235,235);
+    margin: 0px;
+}
+    
+#backdrop {
+    background: #353535;
+    width: 1920px;
+    height: 200px;
+}
+
+#skillset {
+    width: 174px;
+    height: 155px;
+
+    padding: 22px;
+    margin-left: 1300px;
+}
+
+.selfie {
+    width: 280px;
+    height: 280px;
+
+    margin-top: -105px;
+    margin-left: 305px;
+
+    background: rgb(235,235,235);
+    border-radius: 280px;
+    border: 7px solid rgb(235,235,235); 
+}
+
+#frame {
+    width: 280px;
+    height: 280px;
+    mask-image: url(../img/master/mask.png);
+    -webkit-mask-image: url(../img/master/mask.png);
+}
+
+#frame > img {
+    width: 318px;
+    height: 424px;
+    
+    margin-left: -30px;
+    margin-top: -110px;
+}
+
+.title {
+    margin-top: -180px;
+}
+
+.title > * {
+    margin: 0px;
+    margin-left: 625px;
+}
+
+#fullname {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 60pt;
+}
+
+#bio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+}
