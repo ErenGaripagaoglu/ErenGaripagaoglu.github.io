@@ -7,6 +7,57 @@
     <link rel="icon" href="./img/master/logoEG.png">
     <link rel="stylesheet" href="styles/sidenav.css">
     <link rel="stylesheet" href="styles/shared.css">
+    <style>
+        /* Shared */
+
+        
+
+        /* ----- */
+
+        /* Local */
+
+        .LogoITL {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            margin-left: 15px;
+
+            border-style: solid;
+            border-width: 0.01px;
+            border-color: black;
+            border-radius: 8px;
+        }
+
+        .prjName {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 32pt;
+            margin: 0px;
+        }
+
+        .prjType {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+            font-style: normal;
+            margin: 0px;
+        }
+
+        .period {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+            font-style: normal;
+            margin: 0px;
+        }
+
+        #prjInfo {
+            margin-top: 0px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+        }
+        
+    </style>
 </head>
 <body>
     <iframe class="masterFrame" src="master.html"></iframe>
@@ -21,7 +72,49 @@
 
         <div id="informationCell">
             <table>
-
+                <tr id="itl">
+                    <td><img class="LogoITL" src="./img/projects/itlLogo.png" alt="Izmir's Track Legends"></td>
+                    <td>
+                        <table>
+                            <tr><p class="prjName">Izmir's Track Legends</p></tr>
+                            <tr><p class="prjType">Personal Project - Racing Game Made With Unity</p></tr>
+                            <tr><p class="period">(2022 - 2024)</p><a href="./izmirstracklegends/index.html"></a></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100px"></td>
+                    <td width="700px">
+                        <p id="prjInfo">
+                            &nbsp; This project involves most of my skills & knowledge.
+                            Every aspect of the game is made by myself.
+                            While working on this project,
+                            I wanted to demonstrate my abilities.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100px"></td>
+                    <td width="700px">
+                        <ul class="listStart">
+                            <li>Key Skills I Used;</li>
+                                <ul>
+                                    <li>Game has 18 car models and 1 racetrack model which modeled in Blender.</li>
+                                    <li>Driving physics written with C# in addition to usage of Unity Components.</li>
+                                    <li>Scene & level changes are managed by Unity Game Engine.</li>
+                                    <li>Menu UI designs are made with Adobe CC softwares.</li>
+                                    <li>I've made an information website for it using HTML5 & CSS3.</li>
+                                </ul>
+                            <li>Game Features;</li>
+                                <ul>
+                                    <li>Track checkpoints and 1:1 realtime tracking for laptime.</li>
+                                    <li>Analog & digital gauges for speed & rpm.</li>
+                                    <li>Vehicles have their own sound effects as well as gauges.</li>
+                                    <li>Manual & automatic gearbox(transmission) systems while driving.</li>
+                                </ul>
+                        </ul>
+                    </td>
+                </tr>
             </table>
         </div>    
     </div>
