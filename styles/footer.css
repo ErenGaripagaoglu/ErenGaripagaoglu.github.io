@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    display: flex;
+}
+
+#backdrop {
+    background: #353535;
+    width: 1920px;
+    height: 70px;
+    align-items: center;
+}
+
+table {
+    height: 35px;
+}
+
+td {
+    align-items: center;
+}
+
+#copy {
+    height: 20pt;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    color: white;
+    align-self: center;
+}
+
+.socials {
+    margin-left: 520px;
+}
+
+a > img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}

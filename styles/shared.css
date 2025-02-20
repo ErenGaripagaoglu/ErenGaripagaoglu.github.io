@@ -2,6 +2,29 @@
     display: flex;
 }
 
+.masterFrame {
+    width: 1920px;
+    height: 424px;
+
+    margin: 0px;
+    border: 0px;
+
+    margin-left: -8px;
+    margin-top: -8px;
+
+    display: block;
+}
+
+.footerFrame {
+    width: 1920px;
+    height: 70px;
+
+    margin: 0px;
+    border: 0px;
+
+    display: block;
+}
+
 #informationCell {
     width: 1295px;
 
