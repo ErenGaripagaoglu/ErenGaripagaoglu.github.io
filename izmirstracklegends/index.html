@@ -5,90 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Izmir's Track Legends</title>
     <meta name="author" content="Eren Garipagaoglu">
-    <meta name="keywords" content="Izmirs, Track, Legends, ITL">
-    <meta name="description" content="Website of the game Izmir's Track Legends">
-    <link rel="icon" href="../images/logos/logoEG.png">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./img/master/logoEG.png">
+    <link rel="stylesheet" href="itl.css">
 </head>
 <body>
-    <header>
-        <div class="headTitles">
-            <p id="gameMain">Izmir's Track Legends</p>
-            <a id="screenshots" href="./screenshots.html">Screenshots</a>
+    <div class="topbar">
+        <div>
+            <img src="./img//topbar/banner.jpeg" alt="banner" width="1920px" height="350px">
         </div>
 
-        <div id="underline">
-            <div id="underliner"></div>
-        </div>
-    </header>
-
-    <div class="content">
-        <div id="sidenav"> <!--Profile Card-->
-            <img id="banner" src="../images/linkedInBanner.png" width="400px" height="98px">
-            <img id="pfp" src="../images/profilePic.png" width="100px" height="100px">
+        <div class="logoNdown">
+            <div>
+                <img id="gameLogo" src="../img/projects/itlLogo.png" height="280px" width="282px">
+            </div>
             
-            <div class="egTitle">
-                <p id="egText">Eren GARİPAĞAOĞLU</p>
-                <p id="wtitle">Back-End Developer | Web & 3D Designer</p>
-            </div>  
-
-            <div class="cv"> <!--Work & Study Background-->
-                <div id="listSymbols">
-                    <div id="listLine">
-                        <div id="seperator"></div>
-                        <div class="circle" id="c1"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div id="game">
-                        <div id="gameLogo">
-                            <img id="itlLogo" src="./images/logo/itlLogo.png" width="48px" height="48px">
-                        </div>
-                        <div id="info">
-                            <p id="projectName">Izmir's Track Legends</p>
-                            <p id="devTitle">Developer</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="seperator2"></div> <!--Bottom Border-->
-
-            <div class="socials"> <!--Social Platforms-->
-                <div id="myWebsite">
-                    <img src="../images/logos/EG.png" width="24px" height="24px" class="linkLogo">
-                    <a href="https://erengaripagaoglu.github.io/">My Website</a>
-                </div>
-                <div id="gitHub">
-                    <img src="../images/icons/logoGitHub.png" width="24px" height="24px" class="linkLogo">
-                    <a href="https://github.com/ErenGaripagaoglu">GitHub</a>    
-                </div>
-                <div id="linkedIn">
-                    <img src="../images/icons/logoLinkedin.png" width="24px" height="24px" class="linkLogo">
-                    <a href="https://www.linkedin.com/in/eren-garipagaoglu">LinkedIn</a>
-                </div>
-            </div>
+            <a class="downloadButton" href="https://drive.google.com/file/d/130_uLBvHAN7RaEexpJ7GBFEABGEHy7To/view" target="_blank">
+                <img id="dwnldIco" src="./img/topbar/download.png" alt="download" width="30pt" height="30pt">
+                <p id="dwnld">DOWNLOAD</p>
+            </a>
         </div>
 
-        <div id="main" align="center"> <!--Main Content-->
-            <img id="overview" src="./images/overview.png" width="1040px" height="416px"> 
-            <h1>Izmir's Track Legends</h1>
-            <div id="fullText">
-                <p class="textThin">&nbsp Izmir's Track Legends(ITL) offers player to drive unique cars' owned by locals. Goal of the game is for the player to try to get the best lap time. 
-                    However ITL is yet to offer a "Leaderboard" system. Currently ITL has 8 cars to drive but I aim to increase the number in the future. 
-                    For now ITL can only be played on Windows platform.</p>
-            </div>        
-            <div id="download" align="left">
-                <u><a href="https://drive.google.com/file/d/130_uLBvHAN7RaEexpJ7GBFEABGEHy7To/view" target="_blank">Download Latest Version</a></u>
-            </div>
-            <div id="images">
-                <img src="./images/enterance.png">
-                <img src="./images/pit.png">
-            </div>    
+        <div class="title">
+            <p id="gamename">İzmir's Track Legends</p>
+            <p id="bio">Time-Trial Based Racing Game</p>
         </div>
     </div>
+    
+    <div class="main">
+        <div class="sections">
+            <p class="sectionTitle">Summary</p>
+            <p id="summaryText">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    “İzmir’s Track Legends” video game is made by one developer. 
+                My development motivation for this game was creating a digital copy of a local track in İzmir,
+                as well as demonstrating my skills and knowledge all in one project.
+            </p>
+        </div>
+
+        <div class="sections">
+            <p class="sectionTitle">Developer</p>
+            <div>
+                <div style="display: flex; margin-top: 20px; margin-left: -210px;">
+                    <div class="selfie">
+                        <div id="frame">
+                            <img src="../img/master/selfie.jpeg">
+                        </div>
+                    </div>
+                
+                    <div class="devTitle">
+                        <p id="fullname">Eren GARİPAĞAOĞLU</p>
+                        <p id="devbio">Fullstack Developer | Web & 3D Designer | IT Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sections">
+            <p class="sectionTitle">Features</p>
+            <div class="album">
+                <img src="./img/content/features/timer.jpeg" alt="timers in game" height="200px">
+                <img src="./img/content/features/gauges.jpeg" alt="timers in game" height="200px">
+                <img src="./img/content/features/tireSmoke.jpeg" alt="timers in game" height="200px">
+            </div>
+            <ul>
+                <li>Track checkpoints and 1:1 realtime time tracking for laptime.</li>
+                <li>Analog & digital gauges for speed & rpm.</li>
+                <li>Tire smoke physics after tires start slipping.</li>
+                <li>Vehicles have their own sound effects as well as gauges.</li>
+                <li>Manual & automatic gearbox(transmission) systems while driving.</li>
+                <li>FWD, RWD, 4X4 drivetrain physics.</li>
+            </ul>
+        </div>
+
+        <div class="sections">
+            <p class="sectionTitle">In-Game Content</p>
+            <div class="album">
+                <table>
+                    <tr>
+                        <td>
+                            <img class="tblimg" src="./img/content/ingame/mapModel.jpeg" alt="satelite view of the circuit" height="300px">
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="tblimg" src="./img/content/ingame/enterance.jpeg" alt="enterance of the circuit" height="145px">
+                                        <img class="tblimg" src="./img/content/ingame/cafe.jpeg" alt="circuits restaurant" height="145px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img class="tblimg" src="./img/content/ingame/pits.jpeg" alt="pits" width="520px" height="145px">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <ul style="padding-left: 0px;"><li>1 Racing Track: İzmir Park Racing Circuit, with detailed environment.</li></ul>
+                
+                <img class="tblimg" src="./img/content/ingame/eighteen.jpeg" alt="pits" width="1065px" style="margin-top: 30px;">
+                <ul style="padding-left: 0px;"><li>18 Cars</li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <iframe class="footerFrame" src="../footer.html"></iframe>
 </body>
 </html>
